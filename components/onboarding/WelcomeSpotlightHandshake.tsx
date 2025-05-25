@@ -20,9 +20,9 @@ export default function WelcomeSpotlight({ name = "User" }: { name?: string }) {
           exit={{ opacity: 0 }}
           className="fixed inset-0 z-50 flex items-center justify-center bg-black text-white overflow-hidden"
         >
-          {/* Handshake Image (full width) */}
+
           <motion.img
-            src="/handshake_transparent.gif" // Replace with your actual path
+            src="/handshake_transparent.gif" 
             alt="Handshake"
             className="absolute w-full h-full object-cover z-10"
             initial={{ opacity: 0, scale: 1.05 }}
@@ -30,7 +30,6 @@ export default function WelcomeSpotlight({ name = "User" }: { name?: string }) {
             transition={{ duration: 1.2 }}
           />
 
-          {/* Curtain Dissolve Animation */}
           <motion.div
             className="absolute inset-0 bg-black z-20"
             initial={{ scaleX: 1 }}
@@ -41,7 +40,7 @@ export default function WelcomeSpotlight({ name = "User" }: { name?: string }) {
             }}
           />
 
-          {/* AI Glow Background */}
+       
           <motion.div
             className="absolute inset-0 bg-gradient-to-br from-black via-transparent to-cyan-900 opacity-50 z-0 pointer-events-none"
             initial={{ opacity: 0 }}
@@ -49,7 +48,7 @@ export default function WelcomeSpotlight({ name = "User" }: { name?: string }) {
             transition={{ delay: 1.5 }}
           />
 
-          {/* Welcome Text */}
+         
           <motion.div
             className="z-30 text-center px-4"
             initial={{ opacity: 0, y: 20 }}

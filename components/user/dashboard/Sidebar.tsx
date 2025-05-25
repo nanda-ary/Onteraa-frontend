@@ -61,7 +61,6 @@ const Sidebar: React.FC = () => {
 >
 
 
-      {/* Top section */}
       <div>
 <div className="px-4 py-4 h-16 flex items-center justify-between">
   {isExpanded ? (
@@ -118,7 +117,7 @@ const Sidebar: React.FC = () => {
         </div>
       </div>
 
-      {/* Bottom user section */}
+
       <div className="p-4">
   {isExpanded ? (
     <div className="flex items-center gap-3">

@@ -58,7 +58,7 @@ export default function CommandBar() {
 
           <div className="flex justify-between items-center">
             <div className="flex gap-2">
-              {/* Attach Dropdown */}
+    
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger asChild>
                   <Button variant="outline" size="sm">
@@ -81,7 +81,7 @@ export default function CommandBar() {
                 </DropdownMenu.Content>
               </DropdownMenu.Root>
 
-              {/* Tools Dropdown */}
+      
               <DropdownMenu.Root>
                 <DropdownMenu.Trigger asChild>
                   <Button variant="outline" size="sm" className="gap-1">
@@ -106,7 +106,7 @@ export default function CommandBar() {
               </DropdownMenu.Root>
             </div>
 
-            {/* Send Button */}
+           
             <Button
               onClick={handleSend}
               size="icon"
