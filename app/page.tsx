@@ -4,7 +4,7 @@ import FeaturesCard from "@/components/features-card";
 import ContentSection from "@/components/content-1";
 import CallToAction from "@/components/call-to-action";
 import FooterSection from "@/components/footer";
-
+import WelcomeSpotlight from "@/components/onboarding/WelcomeSpotlightNormal";
 export default function Home() {
   return (
     <>
