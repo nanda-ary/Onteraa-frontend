@@ -1,8 +1,11 @@
 import Image from "next/image";
 import { ONCounter } from "@/components/ui/OnCounter"
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function ContentSection() {
+
+  
   return (
     <section className="py-16 md:py-10  bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/video-gradient-shape.svg')" }}>
       <div className="mx-auto max-w-7xl space-y-8 px-6 md:space-y-16">
