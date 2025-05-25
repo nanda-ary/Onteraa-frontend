@@ -356,3 +356,18 @@
 .counter-block__text {
     color: var(--color-black-100)
 }
+
+/* radial spotlight background */
+.bg-radial-spotlight {
+  background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.95) 80%);
+}
+
+/* optional shimmering gradient on the headline */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background-size: 400% 100%;
+  animation: shimmer 3s linear infinite;
+}
