@@ -27,7 +27,7 @@ const TopBar: React.FC = () => {
           </Link>
         </Button>
 
-        <Button size="sm" variant="destructive" onClick={handleLogout}>
+        <Button size="sm" onClick={handleLogout}>
           Logout
         </Button>
 
