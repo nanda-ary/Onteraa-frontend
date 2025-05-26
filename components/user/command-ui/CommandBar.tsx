@@ -19,7 +19,7 @@ export default function CommandBar({ token }: CommandBarProps) {
     if (!input.trim()) return;
     setLoading(true);
     try {
-      const res = await fetch("/api/command-ui/send", {
+      const res = await fetch("/api/command-ui/api/command-ui/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

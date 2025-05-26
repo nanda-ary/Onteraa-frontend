@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
     const token = authHeader.split(" ")[1];
     const body = await req.json();
 
-    const res = await fetch(`${process.env.BACKEND_URL}/api/command-ui/send`, {
+    const res = await fetch(`${process.env.BACKEND_URL}/api/command-ui/api/command-ui/send`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

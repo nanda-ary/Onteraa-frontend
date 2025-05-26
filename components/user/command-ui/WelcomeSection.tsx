@@ -6,7 +6,7 @@ import QuickAction from "@/components/user/command-ui/QuickAction";
 const quickActions = [
   { label: "Content Help", description: "Help with me create a Presentation", color: "blue" },
   { label: "Suggestions", description: "Help with me ideas", color: "rose" },
-  { label: "Job Application", description: "Help with me apply for job application", color: "green" },
+  { label: "Generate Profit and Loss", description: "Help with me profit loss", color: "green" },
 ];
 
 
@@ -14,7 +14,7 @@ const WelcomeSection: React.FC = () => (
   <main className="flex-1 flex items-center justify-center px-6 py-10">
     <div className="max-w-3xl text-left">
       <h1 className="text-4xl font-semibold leading-tight text-foreground mb-8">
-        Hey! Ari<br />
+        Hey! Bang Ami<br />
         What can I help with?
       </h1>
 
